@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
-* {
+body {
   font-family: "Open-Sans", sans-serif;
+  color: #3B373C;
+  background-color: #F7F3F9l
 }
-
 .wrapper {
   display: flex;
-  /* width: 90%; */
   margin: 0 auto;
 }
 
@@ -20,6 +20,11 @@ h1 {
 
 p {
   line-height: 150%;
+  color: #756F78;
+}
+
+span {
+  color: #EBDEF0;
 }
 
 .text-container {
@@ -41,6 +46,11 @@ footer ul {
   display: flex;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .project-container li {
 
 }
@@ -56,41 +66,47 @@ footer ul {
 }
 
 .puppy-rescue {
-  width: 132%;
-  height: auto;
-  background-image: url("../img/puppy-rescue.png");
-  background-size: cover;
+  max-width: 90%;
 }
 
 .shift-happens {
-  background-image: url("../img/shift-happens.png");
-  background-size: cover;
+  max-width: 90%;
 }
 
 .write-away {
-  background-image: url("../img/write-away.png");
-  background-size: cover;
+  max-width: 90%;
 }
 
 footer {
-  padding-top: 3%;
+  font-size: 20px;
 }
 
 footer ul {
-  display: flex;
   justify-content: center;
-  width: 100%;
   margin: 0 auto;
 }
 
+footer li {
+  padding: 2%;
+  padding-top: 5%;
+}
+
+footer a {
+  color: #3B373C;
+}
+
+footer a:hover {
+  color: #EBDEF0;
+}
+
 .linkedin {
-  width: 4%;
+  max-width: 4%;
 }
 
 .github {
-  width: 12%;
+  max-width: 12%;
 }
 
 .twitter {
-  width: 16%;
+  max-width: 16%;
 }

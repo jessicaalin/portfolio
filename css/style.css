@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+* {
+  font-family: "Open-Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  /* width: 90%; */
+  margin: 0 auto;
+}
+
+.headshot {
+  max-width: 65%;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+p{
+  line-height: 150%; 
+}
+
+.text-container {
+  width: 99%;
+  font-weight: 300;
+  padding: 5% 1% 0 15%;
+}
+
+.photo-container {
+  width: 99%;
+  padding-top: 10%;
+  /* padding-left: 10%; */
+
+}
+
+.project-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.project-container li {
+
+}
+
+.project-container a {
+  text-decoration: none;
+}
+
+.project-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.puppy-rescue {
+  width: 132%;
+  height: auto;
+  background-image: url("../img/puppy-rescue.png");
+  background-size: cover;
+}
+
+.shift-happens {
+  background-image: url("../img/shift-happens.png");
+  background-size: cover;
+}
+
+.write-away {
+  background-image: url("../img/write-away.png");
+  background-size: cover;
+}
